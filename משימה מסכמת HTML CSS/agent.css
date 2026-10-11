@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    color: #222;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    padding: 15px 30px;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+    overflow: hidden; 
+}
+
+.nav-left {
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 22px;
+}
+
+.nav-center ul {
+    list-style: none;
+}
+
+.nav-center li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.nav-center a {
+    text-decoration: none;
+    color: #555;
+    font-size: 13px;
+}
+
+.nav-center a:hover {
+    color: #000;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-right button {
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.nav-right .btn-signup {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.agent-main-container {
+    width: 1000px;
+    margin: 80px auto 0 auto;
+    overflow: hidden; 
+}
+
+.agent-text-block {
+    float: left;
+    width: 450px;
+    padding-top: 50px;
+}
+
+.agent-title {
+    font-size: 38px;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.agent-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.btn-try-now {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-try-now:hover {
+    background-color: #333;
+}
+
+.agent-illustration-box {
+    float: right;
+    width: 480px;
+    height: 380px;
+    background-color: #e6efff; 
+    border-radius: 20px;
+    position: relative; 
+    padding: 20px;
+}
+
+.illustration-label {
+    font-size: 13px;
+    color: #4A90E2;
+    font-weight: bold;
+}
+
+.inner-floating-box {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.bulb-icon {
+    float: left;
+    margin-right: 12px;
+}
+
+.floating-text {
+    font-size: 13px;
+    color: #333;
+    line-height: 1.4;
+    overflow: hidden; 
+}
